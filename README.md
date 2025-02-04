@@ -46,8 +46,8 @@ Ensure you have the following installed:
 ### Steps to Run
 #### 1. Clone the Repository
 ```sh
-git clone https://github.com/your-repo/buy-sell-iiith.git
-cd buy-sell-iiith
+git clone git@github.com:EvanBijoy/IIIT-Buy-Sell-Rent.git
+cd IIIT-Buy-Sell-Rent
 ```
 #### 2. Setup Backend
 ```sh
