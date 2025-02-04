@@ -1,0 +1,34 @@
+.header {
+  height: 56px;
+  background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+  border-bottom: 1px solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 var(--mantine-spacing-md);
+}
+
+.inner {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 500px;
+  border-radius: var(--mantine-radius-sm);
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.searchBar {
+  width: 100%;
+  max-width: 500px;
+  border-radius: var(--mantine-radius-sm);
+  font-size: 12px;
+  padding: 6px 10px;
+}

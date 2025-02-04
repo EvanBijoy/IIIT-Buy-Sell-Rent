@@ -1,0 +1,35 @@
+.header {
+  height: 56px;
+  background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+  border-bottom: 1px solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 var(--mantine-spacing-md);
+}
+
+.inner {
+  width: 100%;
+  display: flex;
+  justify-content: right; 
+  align-items: center;
+}
+
+.cartButton {
+  background-color: var(--mantine-color-blue-light-hover);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cartButton:hover {
+  background-color: var(--mantine-color-blue-light-color);
+}
+
+.cartButton > svg {
+  margin-right: 8px; 
+}

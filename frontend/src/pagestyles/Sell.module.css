@@ -1,0 +1,45 @@
+.mainContent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 100%;
+    padding-bottom: 40px;
+}
+
+.title {
+    padding-left: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+  
+.scrollWrapper {
+    position: fixed;
+    top: 0;
+    left: 80px;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+  
+@media (max-width: 1200px) {
+    .mainContent {
+      grid-template-columns: repeat(3, 1fr);
+    }
+}
+  
+@media (max-width: 900px) {
+    .mainContent {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+  
+@media (max-width: 600px) {
+    .mainContent {
+      grid-template-columns: 1fr;
+    }
+}
